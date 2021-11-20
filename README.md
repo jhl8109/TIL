@@ -1,3 +1,6 @@
 # Today I Learned
 
-2021-11-20 AWS 기본 배경 지식 및 AWS WEEK1 마무리
+## CLOUD
+
+### AWS
+[AWS Base] : https://github.com/jhl8109/TIL/blob/main/Cloud/AWS_Base.md
