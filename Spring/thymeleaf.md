@@ -1,4 +1,4 @@
-##thymeleaf 템플릿엔진 동작 확인
+## thymeleaf 템플릿엔진 동작 확인
 
 Spring 은 tomcat 서버를 내장하고 있음
 
