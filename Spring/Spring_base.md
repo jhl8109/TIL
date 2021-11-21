@@ -20,5 +20,5 @@
 * 템플릿 엔진에서 화면을 조작하는 것이 아닌 text 그대로 사용됨
 * 보통 text보다 객체 형태로 넘김(json)
 * @ResponseBody를 사용함
--  컨트롤러에서  @ResponseBody가 있으면(API) return으로 템플릿을 찾는 것이 아니라 그대로 return 값을 넘김. 
-- 객체가 오면 json으로 문자열이 오면 String으로 넘겨짐. (ViewResolver 대신 HttpMessageConverter에 의해) 
+  -  컨트롤러에서  @ResponseBody가 있으면(API) return으로 템플릿을 찾는 것이 아니라 그대로 return 값을 넘김. 
+  - 객체가 오면 json으로 문자열이 오면 String으로 넘겨짐. (ViewResolver 대신 HttpMessageConverter에 의해) 
