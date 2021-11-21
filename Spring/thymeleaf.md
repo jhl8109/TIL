@@ -10,4 +10,4 @@ Spring 은 tomcat 서버를 내장하고 있음
 
 attributeName에 맞는 attributeValue를 가져와 이를 렌더링 함.
 
-+ spring-boot-devtools 라이브러리를 추가하면 html파일을 컴파일만 해주면 서버 재시작 없이 view파일 변경이 가능
+참고 : spring-boot-devtools 라이브러리를 추가하면 html파일을 컴파일만 해주면 서버 재시작 없이 view파일 변경이 가능
