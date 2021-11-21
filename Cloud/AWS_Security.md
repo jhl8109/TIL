@@ -21,31 +21,5 @@ Infrastructure > Container > Abstracted 으로 사용자가 부담해야할 관�
 |Container services|AWS manages the infrastructure and foundation services, operating system, and application platform.|You are responsible for customer data, encrypting that data, and protecting it through network firewalls and backups.|
 |Abstracted services|AWS operates the infrastructure layer, operating system, and platforms, as well as server-side encryption and data protection.|You are responsible for managing customer data and protecting it through client-side encryption.|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+2021-11-21 참고
+https://www.coursera.org/learn/aws-cloud-technical-essentials/supplement/6UN7b/reading-1-5-security-and-the-aws-shared-responsibility-model
