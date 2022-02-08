@@ -5,6 +5,7 @@
 ### AWS
 * [AWS Basic](https://github.com/jhl8109/TIL/blob/main/Cloud/AWS_Base.md)
 * [AWS Security](https://github.com/jhl8109/TIL/blob/main/Cloud/AWS_Security.md)
+* [AWS Root User](https://github.com/jhl8109/TIL/blob/main/Cloud/AWS_Root_User.md)
 
 ### Jenkins
 * [Jenkins?](https://github.com/jhl8109/TIL/blob/main/Jenkins/jenkins.md)
