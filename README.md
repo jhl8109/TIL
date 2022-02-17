@@ -7,6 +7,7 @@
 * [AWS Security](https://github.com/jhl8109/TIL/blob/main/Cloud/AWS_Security.md)
 * [AWS Root User](https://github.com/jhl8109/TIL/blob/main/Cloud/AWS_Root_User.md)
 * [AWS IAM](https://github.com/jhl8109/TIL/blob/main/Cloud/AWS_IAM.md)
+* [AWS EC2](https://github.com/jhl8109/TIL/blob/main/Cloud/AWS_EC2.md)
 
 ### Jenkins
 * [Jenkins?](https://github.com/jhl8109/TIL/blob/main/Jenkins/jenkins.md)
