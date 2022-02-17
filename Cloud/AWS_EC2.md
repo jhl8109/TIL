@@ -16,5 +16,3 @@ EC2 instances are live instatiations of what is defined in an AMI, much like a c
 
 Ond advatage of using AMIs is that they are reusable.
 If i wanted to create a second EC2 instance with the same configureations, I can create an AMI from my running instance and use this AMI to start a new instance.
-
-
