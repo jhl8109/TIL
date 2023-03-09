@@ -13,8 +13,6 @@ flag = False
 a = [list(map(int, input().strip())) for i in range(n)]
 b = [list(map(int, input().strip())) for i in range(n)]
 
-
-
 for i in range(n-2):
     for j in range(m-2):
         if a[i][j] != b[i][j]:
