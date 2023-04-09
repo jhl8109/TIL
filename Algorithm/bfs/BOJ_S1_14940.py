@@ -34,12 +34,15 @@ def bfs(y,x):
             if visited[ny][nx] or board[ny][nx] == 0:
                 continue
             queue.append((ny,nx,cur_dist+1))
-            board[ny][nx] = cur_dist+1
+            answer[ny][nx] = cur_dist+1
             visited[ny][nx] = True
 
 bfs(start[0],start[1])
 
 for i in range(n):
     for j in range(m):
-        print(board[i][j], end=' ')
+        if board[i][j] == 0:
+            print(0, end=' ')
+        else:
+            print(answer[i][j], end=' ')
     print()
