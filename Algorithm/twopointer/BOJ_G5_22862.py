@@ -1,42 +1,26 @@
-import sys
+N, K = map(int, input().split())
+arr = list(map(int, input().split()))
+save,even = 0,0
+p1,p2,cnt = 0,0,0
 
-n,k = map(int,sys.stdin.readline().split())
-my_list = list(map(int,sys.stdin.readline().split()))
+# 시작점을 p1, 끝점을 p2
+# tmp == K일 때 p1을 뒤로 옮김
+# tmp != K일 때 p2를 뒤로 옮김
+while p2 < len(arr):
+    if cnt <= K: # 아직 K번 탐색 안했을 때 다음 것 탐색
+        if arr[p2] % 2 != 0: #다음이 홀수 일때
+            cnt += 1
+        else:
+            even += 1
+        p2 += 1
+        save = max(save,even)
+    else: #cnt를 다 소비했을 때
+        save = max(save,even)
+        if arr[p1] % 2 != 0: #앞 포인터를 땡겼을 때 홀수면
+            cnt -= 1
+        else:
+            even -= 1
+        p1 += 1
+    # print(p1,p2,even,cnt)
+print(save)
 
-
-l,r,ans,odd_cnt = 0,-1,0,0
-temp_cnt = 0
-
-while True :
-
-
-    if odd_cnt <= k :
-        ans = max(ans, temp_cnt - odd_cnt)
-
-    #Validation
-    if odd_cnt <= k :
-        
-        #경계 조건 확인
-        r += 1
-        if r >= n :
-            break
-
-        if my_list[r] % 2 == 1 :
-            odd_cnt +=1
-        temp_cnt +=1
-
-
-    # Validation
-    else :
-
-        if my_list[l] % 2 == 1 :
-            odd_cnt -=1
-        temp_cnt -=1
-        
-
-        #경계 조건 확인
-        l+=1
-        if l > r :
-            break
-
-print(ans)
