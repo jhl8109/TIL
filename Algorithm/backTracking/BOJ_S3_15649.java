@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main{
+class BOJ_S3_15649{
     static int N,M;
 
     public void dfs(int start, ArrayList<Integer> arr) {
@@ -27,7 +27,7 @@ class Main{
         }
     }
     public static void main(String[] args) {
-        Main main = new Main();
+        BOJ_S3_15649 main = new BOJ_S3_15649();
         
         Scanner sc = new Scanner(System.in);
         N =sc.nextInt();
