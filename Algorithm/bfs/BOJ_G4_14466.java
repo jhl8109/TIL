@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main {
+public class BOJ_G4_14466 {
 
     private static int N;
     private static int[] x_move = {1, 0, -1, 0};
