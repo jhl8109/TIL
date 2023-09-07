@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Main {
+class BOJ_S2_2512 {
     public static int N, max;
     public static Integer[] arr;
 
@@ -19,7 +19,7 @@ class Main {
         return 0;
     }
     public static void main(String[] args) throws IOException{
-        Main main = new Main();
+        BOJ_S2_2512 main = new BOJ_S2_2512();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
