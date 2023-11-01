@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Main{
+class BOJ_G4_2179{
     public static int N, max = -1;
     public static ArrayList<Dict> arr = new ArrayList<>();
     public static Dict S = new Dict(-1,""), T = new Dict(-1,"");
