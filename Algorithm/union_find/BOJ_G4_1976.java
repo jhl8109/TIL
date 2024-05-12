@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class BOJ_G4_1976{
+class Main{
     static int N,M;
     static int[] parents;
     static int[] trip;
