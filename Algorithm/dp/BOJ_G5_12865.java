@@ -9,8 +9,8 @@ class Product{
 	}
 }
 
-class Main {
-	public int solution(int N, int K, Product[] arr){
+class BOJ_G5_12865 {
+	public static int solution(int N, int K, Product[] arr){
 		int[][] dp = new int[N+1][K+1];
 
 		for(int i=1; i<=N; i++) { // 물건
@@ -28,7 +28,7 @@ class Main {
 		return dp[N][K];
 	}
 	public static void main(String[] args){
-		Main main = new Main();
+		BOJ_G4_1976_2 main = new BOJ_G4_1976_2();
 		Scanner kb = new Scanner(System.in);
 		int N = kb.nextInt();
 		int K = kb.nextInt();
@@ -39,6 +39,6 @@ class Main {
 			int V = kb.nextInt();
 			arr[i] = new Product(W,V);
 		}
-		System.out.println(main.solution(N,K,arr));
+		System.out.println(solution(N,K,arr));
 	}
 }

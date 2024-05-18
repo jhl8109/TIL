@@ -1,21 +1,10 @@
 import java.util.*;
 
-class Video {
-	public int p;
-	public int q;
-	public int r;
-	Video(int p, int q, int r) {
-		this.p = p;
-		this.q = q;
-		this.r = r;
-	}
-}
-
-class Main {
+class BOJ_S1_1189 {
 	static int R,C,K,answer;
 	static char[][] board;
 	static int[][] visited;
-	public void DFS(int y, int x, int dist){
+	public static void DFS(int y, int x, int dist){
 		int[] dy = {-1,0,1,0};
 		int[] dx = {0,1,0,-1};
 		if(dist == K && y == 0 && x == C-1) {
@@ -37,7 +26,7 @@ class Main {
 		}
 	}
 	public static void main(String[] args){
-		Main main = new Main();
+		BOJ_G4_1976_2 main = new BOJ_G4_1976_2();
 		Scanner kb = new Scanner(System.in);
 		R = kb.nextInt();
 		C = kb.nextInt();
@@ -50,7 +39,18 @@ class Main {
 			board[i] = tmp;
 		}
 		visited[R-1][0] = 1;
-		main.DFS(R-1,0,1);
+		DFS(R-1,0,1);
 		System.out.println(answer);
+	}
+
+	static class Video {
+		public int p;
+		public int q;
+		public int r;
+		Video(int p, int q, int r) {
+			this.p = p;
+			this.q = q;
+			this.r = r;
+		}
 	}
 }

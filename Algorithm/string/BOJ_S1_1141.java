@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class BOJ_S1_1141 {
     static int N;
     static String[] words;
     static ArrayList<Integer> prefixes;

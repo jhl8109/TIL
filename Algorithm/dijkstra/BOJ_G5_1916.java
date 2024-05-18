@@ -1,20 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-class Node implements Comparable<Node>{
-    int idx;
-    int cost;
-
-    Node(int idx, int cost) {
-        this.idx = idx;
-        this.cost = cost;
-    }
-
-    @Override
-    public int compareTo(Node o){
-        return this.cost - o.cost;
-    }
-}
 
 
 class BOJ_G5_1916{
@@ -72,5 +58,21 @@ class BOJ_G5_1916{
         System.out.println(dist[end]);
         
     }
+
+    static class Node implements Comparable<Node>{
+        int idx;
+        int cost;
+
+        Node(int idx, int cost) {
+            this.idx = idx;
+            this.cost = cost;
+        }
+
+        @Override
+        public int compareTo(Node o){
+            return this.cost - o.cost;
+        }
+    }
+
 
 }

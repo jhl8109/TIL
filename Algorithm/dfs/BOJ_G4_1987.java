@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Main{
+class BOJ_G4_1987{
 	static int R,C;
 	static int[] ny = {1,-1,0,0};
 	static int[] nx = {0,0,-1,1};

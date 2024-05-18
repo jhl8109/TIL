@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class Main{
+class BOJ_G5_2138{
 
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -48,4 +48,4 @@ class Main{
             System.out.printf("%d", Math.min(pushCnt1, pushCnt2));
         }
     }
-}g
+}

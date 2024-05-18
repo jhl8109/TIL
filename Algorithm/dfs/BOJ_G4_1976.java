@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class BOJ_G4_1976 {
     private static int n,m;
 
     private static boolean[] visited;

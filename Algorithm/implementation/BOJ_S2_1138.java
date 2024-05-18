@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class BOJ_S2_1138 {
 
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);

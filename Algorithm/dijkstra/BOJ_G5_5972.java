@@ -1,22 +1,9 @@
 import java.util.*;
 import java.io.*;
 
-class Node implements Comparable<Node>{
-    int idx;
-    int cost;
 
-    Node(int idx, int cost) {
-        this.idx = idx;
-        this.cost = cost;
-    }
-    
-    @Override
-    public int compareTo(Node o){
-        return this.cost - o.cost;
-    }
-}
 
-class Main{
+class BOJ_G5_5972{
     public static int dijkstra(int N, ArrayList<ArrayList<Node>> roads) {
         final int START = 1;
         int min = Integer.MAX_VALUE;
@@ -67,5 +54,20 @@ class Main{
             
         }
         System.out.println(dijkstra(N,roads));
+    }
+
+    static class Node implements Comparable<Node>{
+        int idx;
+        int cost;
+
+        Node(int idx, int cost) {
+            this.idx = idx;
+            this.cost = cost;
+        }
+
+        @Override
+        public int compareTo(Node o){
+            return this.cost - o.cost;
+        }
     }
 }
